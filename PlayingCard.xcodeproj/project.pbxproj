@@ -15,6 +15,7 @@
 		20F21AC523B8E68D0023EDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F21AC323B8E68D0023EDF1 /* LaunchScreen.storyboard */; };
 		20F21ACE23B8E71E0023EDF1 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F21ACD23B8E71E0023EDF1 /* PlayingCard.swift */; };
 		20F21AD023B8E9B80023EDF1 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F21ACF23B8E9B80023EDF1 /* PlayingCardDeck.swift */; };
+		20F21AD223B8F7B60023EDF1 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F21AD123B8F7B60023EDF1 /* PlayingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		20F21AC623B8E68D0023EDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20F21ACD23B8E71E0023EDF1 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		20F21ACF23B8E9B80023EDF1 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		20F21AD123B8F7B60023EDF1 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		20F21AB723B8E68C0023EDF1 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
+				20F21AD123B8F7B60023EDF1 /* PlayingCardView.swift */,
 				20F21ABC23B8E68C0023EDF1 /* ViewController.swift */,
 				20F21ABE23B8E68C0023EDF1 /* Main.storyboard */,
 				20F21ACD23B8E71E0023EDF1 /* PlayingCard.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F21ABD23B8E68C0023EDF1 /* ViewController.swift in Sources */,
+				20F21AD223B8F7B60023EDF1 /* PlayingCardView.swift in Sources */,
 				20F21AB923B8E68C0023EDF1 /* AppDelegate.swift in Sources */,
 				20F21AD023B8E9B80023EDF1 /* PlayingCardDeck.swift in Sources */,
 				20F21ACE23B8E71E0023EDF1 /* PlayingCard.swift in Sources */,
